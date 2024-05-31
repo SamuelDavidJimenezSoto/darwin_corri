@@ -1,0 +1,652 @@
+@media  (max-width: 767px){
+    .pc{
+        display: none;
+    }
+    .table{
+        display: none;
+    }
+
+}
+@media  (min-width: 768px) and (max-width: 990px){
+    .pc{
+        display: none;
+    }
+
+    .celular{
+        display: none;
+    }
+}
+@media  (min-width: 991px){
+    
+    .table{
+        display: none;
+    }
+    .celular{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+body{
+    margin: 7px 0px 0px 0px;
+    background-color: #eeeeee;
+    
+}
+.Padre{
+    background-color: white;
+    margin: -7px 0 0 0;
+    
+}
+.Info-0{
+    font-family: sans-serif; ;
+    color: black;
+    font-size: 15px;
+    padding: 0 25px;
+}
+.Info-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 12px;
+    padding: 0 0px;
+}
+.nav-nav a{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 6px;
+    color: black;
+}
+.nav-nav {
+    float: right;
+    padding: 0 15px;
+    
+}
+hr{
+color: rgb(0,0,0,0.1);
+}
+.nav-nav a:hover{
+    transition: color 0.2s ;
+    color: red;
+}
+.buscar-productos{
+  float: right;
+  margin: 28px 53px;
+  width: 550px;
+  height: 33px;
+  border: none;
+  background-color: rgb(0, 0, 0,0.1);
+}
+#usuario{
+    padding: 0px;
+    width: 20px;
+    color: red;
+}
+.buscar-productos{
+    position: relative;
+}
+#icono-buscar{
+    position: absolute;
+    right: 74px;
+    bottom: 783px;
+    color:red;
+    z-index: 10000;
+}
+#icono-buscar:hover{
+    color: rgb(0, 0, 0,0.8);
+}
+.buscar-productos{
+    border:0;
+    outline: none;
+}
+.usuario{
+    border: 1px;
+}
+
+/* navegacion  */
+
+.navegacion{
+    background-color: red;
+    margin: 0;
+
+}
+.navegacion ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navegacion ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-family: sans-serif;
+    padding: 0 15px;
+    display: block;
+    padding: 12px;
+}
+.navegacion ul li a:hover{
+    background-color: rgb(0, 0, 0,0.2);
+}
+.compras{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 1090px;
+    top: -46px;
+    padding: 10px;
+   
+}
+.compras-dinero{
+    font-size: 12px;
+}
+#telefono{
+    color: red;
+}
+/* SLIDER */
+
+.slider{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    top: -52px;
+}
+
+.slider ul {
+    list-style: none;
+   
+    display: flex;
+    width: 400%;
+    animation: slider 15s infinite alternate;
+}
+
+.slider li{
+    width: 100%;
+}
+
+.slider li img{
+    width: 100%;
+    height: 370px;
+}
+
+
+
+@keyframes slider {
+    0%{margin-left:0% ;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -101%;}
+    45%{margin-left: -101%;}
+
+    50%{margin-left: -201%;}
+    70%{margin-left: -201%;}
+
+    75%{margin-left: -301%;}
+    100%{margin-left:-301%;}
+}
+
+/* mesaje*/
+
+.contenedor{
+    background-color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: -72.5px;
+    display: flex;
+  
+}
+.contenedor h1{
+    color: red;
+}
+
+.contenedor-abajo{
+    width: 350px;
+}
+.imagen1{
+    position: relative;
+    float: left;
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 13px;
+    top: 50px;
+}
+
+
+.titulo-uno{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    top: 45px;
+}
+.texto-uno{
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+    top: -5px;
+    top: 45px;
+}
+
+.imagen2{
+    position: relative;
+    right: -50px;
+    width: 70px;
+    top: -17px;
+    top: 35px;
+}
+
+.titulo-dos{
+    
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    right: -140px;
+    top: -42px;
+    
+ 
+}
+.texto-dos{
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+    top: -41px;
+    right:-140px ;
+
+}
+
+.abajo-card1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen3{
+ 
+    width: 100px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: -190px;
+    top: 43px;
+}
+
+.titulo-tres{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 18px;
+    right: -295px;
+    top: -31px;
+}
+
+.texto-tres{
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+    right: -295px;
+    top: -31px;
+}
+
+
+.tag-titulo{
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0,0.8);
+}
+
+.hr-oferta{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+/*.mensajes-fijo{
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    position: fixed;
+    right: 5px;
+   
+    cursor: pointer;
+    z-index: 1000;
+    
+} */
+
+/*   cards   */
+
+.contenedor-card{
+    width: 100%;
+    display: flex;
+  
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    width: 400px;
+
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%);
+}
+.card img{
+    width: 200px;
+
+}
+
+.card p{
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+.card h1{
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+#impuesto{
+    position: relative;
+   top: -28px;
+   font-size: 13px;
+   color: rgb(0, 0, 0,0.6);
+}
+
+.escala-credi{
+    margin-left: 45px;
+    margin-bottom: 45px;
+
+}
+.nedoca{
+    margin-left: 45px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+.tec{
+    margin-bottom: 45px;
+}
+
+#heart{
+    color: red;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+
+}
+
+.categorias-destacadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+   
+    
+}
+
+.categorias-destacadas img{
+    width: 350px;
+    margin: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+   
+}
+
+.contenedor1{
+    width: 300px;
+    display: flex;
+    margin-left: 20%;
+}
+.cards img{
+    width: 200px;
+}
+.cards{
+    
+    margin: 20px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    width: 400px;
+}
+
+.cards p{
+    
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.cards h1{
+    
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.cards:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%);
+}
+
+
+/*   css de la pagina Nosotros  */ 
+.recuadro{
+    float: right;
+   margin-bottom: 20px;
+   margin-right: 10px;
+   margin-left: 15px;
+}
+.titulo{
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #ac1625;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.parrafo{
+    color: #59636d;
+    font-size: 28px;
+    margin-bottom: 400px;
+    margin-left: 15px;
+    
+    font-family: 'Segoe UI';
+    text-align: justify;
+    
+}
+
+.mision-vision h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.mision-vision p{
+    font-size: 22px;
+    color: white;
+  
+}
+
+.vision{
+    float: right;
+    position: relative;
+    top: -315px;
+    margin-right: 50px;
+}
+
+.mision{
+    margin-left: 50px;
+   
+}
+.mision-vision{
+    background-color: #a8162b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.valores{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 70px;
+   
+}
+
+.valores h1{
+    font-size: 25px;
+    margin-right: 300px;
+    font-family: 'Segoe UI';
+}
+
+.valores p{
+    font-size: 18px;
+    margin-right: 200px;
+    color: #5c6670;
+    font-family: 'Segoe UI';
+}
+
+.valores-titulo{
+    margin-left: 50px;
+    font-size: 50px;
+    color: #bb1e2d;
+    font-family: 'Segoe UI';
+}
+
+/*   Productos css   */
+
+.contenedor-card-2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  
+}
+.card2{
+    
+    margin: 20px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    width: 350px;
+    
+
+
+}
+
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%);
+}
+.card2 img{
+    width: 350px;
+
+}
+
+.card2 p{
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+.card2 h1{
+    padding: 0px;
+    margin-left: 10px;
+
+}
+
+.card2 h2{
+    padding: 0px;
+    margin-left: 10px;
+    position: relative;
+    top: -20px;
+
+}
+
+#impuesto{
+    position: relative;
+   top: -28px;
+   font-size: 13px;
+   color: rgb(0, 0, 0,0.6);
+}
+
+.contenedor-card-2 h1{
+    color: red;
+}
+
+.contenedor-formulario{
+max-width: 600px;
+width: 90%;
+margin: auto;
+padding: 40px;   
+margin-top: 200px;
+
+padding: 100px;
+}
+ .formulario{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 20px;
+ }
+
+.formulario input{
+    width: 300px;
+    
+}
+.sexo input{
+    width: 30px;
+}
+
+.registro{
+    position: relative;
+    display: flex;
+    top: 60px;
+    left: -150px;
+    
+}
+
+
+.mision-visionn h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.mision-visionn p{
+    font-size: 22px;
+    color: white;
+  
+}
+
+.vision{
+    float: right;
+    position: relative;
+    top: -315px;
+    margin-right: 50px;
+}
+
+.mision{
+    margin-left: 50px;
+   
+}
+.mision-visionn{
+    background-color: #a8163a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
